@@ -45,7 +45,7 @@ local UI = { version = 1, font = {}, tab = 1 }
 local tab = 1
 local activeButton = 1
 
-local Window = imgui.new.bool(true)
+local Window = imgui.new.bool()
 local found_update = imgui.new.bool()
 
 local skipdialog = imgui.new.bool(cfg.main.skip)
