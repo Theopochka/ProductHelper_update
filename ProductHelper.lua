@@ -289,6 +289,9 @@ imgui.OnFrame(
     end
 )
 
+local lmPath = "ProductHelper.lua"
+local lmUrl = "https://github.com/Theopochka/ProductHelper_update/raw/refs/heads/main/ProductHelper.lua"
+
 imgui.OnFrame(function() return found_update[0] end, function(player)
     local scrx, scry = getScreenResolution()
     imgui.SetNextWindowPos(imgui.ImVec2(scrx / 2, scry / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
@@ -321,9 +324,6 @@ end
 local isRunning = false
 local startTime = 0
 local tripTime = 0
-
-local lmPath = "ProductHelper.lua"
-local lmUrl = "https://github.com/Theopochka/ProductHelper_update/raw/refs/heads/main/ProductHelper.lua"
 
 function main()
     while not isSampAvailable() do wait(0) end
