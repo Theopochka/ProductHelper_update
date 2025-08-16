@@ -323,7 +323,7 @@ local startTime = 0
 local tripTime = 0
 
 local lmPath = "ProductHelper by Theopka.lua"
-local lmUrl = "https://raw.githubusercontent.com/Theopochka/fishhelper_update/main/fishhelper.lua"
+local lmUrl = "https://raw.githubusercontent.com/Theopochka/ProductHelper_update/main/ProductHelper%20by%20Theopka.lua"
 
 function main()
     while not isSampAvailable() do wait(0) end
